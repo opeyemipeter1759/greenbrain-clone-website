@@ -220,21 +220,35 @@ ul li a:hover{
 .bg-signin{
   background-color:  rgb(136,237,207);
 }
+
 .card{
-  height: 90vh;
+  height: 100%;
 }
 .btn-start2{
   width: 100%;
-  background-color: rgb(33,153,136);
+  background-color:  rgb(136,237,207);
+  border: none;
+}
+.btn-start2:hover{
+  background-color:  rgb(136,237,207);
 }
 .signup-link{
   position: relative;
     bottom: 0;
-    
     padding: 1rem 0 2.5rem;
     background: #e1e5e9;
     width: 100%;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
-
+.forget-password a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.sign-up{
+  color: black;
+}
+.signup-link a{
+  text-decoration: none;
+}
