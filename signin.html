@@ -26,23 +26,25 @@
         <form action="" id="sign-in-form">
         <div class="form-group pr-5 pl-5">
           <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroup-sizing-sm">
+            <div class="input-group-text" id="inputGroup-sizing-sm">
               <i class="fa fa-envelope mr-1"></i>
-              <div class="input-group">
-            <input type="text" class="form-control" type="email" placeholder="Username or Email ">
-          </div>
-            </span>
+            <input type="text" class="form-control" id="userName" type="email" placeholder="Username or Email ">
+            </div>
+        <p class="error ml-5" style="font-size: 12px; color: red;"></p>
+
           </div>
         </div>
+
         <br>
         <div class="form-group pr-5 pl-5">
           <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-sm">
               <i class="fa fa-key mr-1"></i>
               <div class="input-group">
-            <input type="password" class="form-control" type="password" placeholder="Password">
+            <input type="password" class="form-control"id="password" type="password" placeholder="Password">
           </div>
-            </span>
+        </span>
+        <p class="error-block ml-5" style="font-size: 12px; color: red;"></p>
           </div>
         </div>
         
@@ -51,7 +53,7 @@
           <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-sm">
               <div class="input-group">
-            <button type="button" class="btn btn-primary btn-start2">Sign In</button>
+            <button type="submit" class="btn btn-primary btn-start2">Sign In</button>
           </div>
             </span>
           </div>
@@ -82,5 +84,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
+<script src="./DOM/signin.js"></script>
+
 </body>
 </html>
